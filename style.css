@@ -1,0 +1,201 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+#hero .carousel-caption {
+    bottom: 30%;
+}
+
+#hero .carousel-caption h2 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+#hero .carousel-caption p {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+#hero .carousel-caption .btn {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.branding img {
+    max-width: 100px;
+    height: auto;
+}
+
+.new-arrivals {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.new-arrivals h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.new-arrivals p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.new-arrivals .btn {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.product-categories img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.product-categories h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.featured-products {
+    background-color: #007bff;
+    color: white;
+    padding: 60px 0;
+}
+
+.featured-products h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+.featured-products h4 {
+    font-size: 1.25rem;
+    margin: 0;
+    font-weight: 700;
+}
+
+.featured-products p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.benefits .card {
+    background-color: #f5f5dc; /* Beige color */
+    border-radius: 0.5rem; /* Optional: for rounded corners */
+}
+
+.benefits .icon-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px; /* Adjust size as needed */
+    height: 80px; /* Adjust size as needed */
+    border: 3px solid #000; /* Border color and width */
+    border-radius: 50%; /* Makes the border circular */
+    margin: 0 auto; /* Centers the icon wrapper */
+}
+
+.benefits .icon-wrapper i {
+    color: #000; /* Icon color */
+}
+
+.special-offers img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.special-offers h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+.special-offers h4 {
+    font-size: 1.25rem;
+    margin: 0;
+    font-weight: 700;
+}
+
+.special-offers p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.special-offers .sale-tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: red;
+    color: white;
+    font-size: 0.875rem;
+    font-weight: 700;
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0; /* Remove padding to avoid margin between image and polygon */
+}
+
+.special-offers .sale-tag span {
+    transform: rotate(-45deg);
+    display: block;
+    width: 100%; /* Ensure the text takes up the entire width of the polygon */
+    height: 100%; /* Ensure the text takes up the entire height of the polygon */
+}
+
+.recent-events {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.recent-events h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+.recent-events h4 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.recent-events p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 15px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
